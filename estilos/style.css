@@ -31,6 +31,7 @@ h2 {
 a {
     text-decoration: none;
     color: rgb(62, 8, 112);
+    font-weight: bold;
 }
 
 a:hover {
@@ -40,15 +41,22 @@ a:hover {
 
 @media (max-width: 540px) {
     main {
-        max-width: 280px;
+        max-width: 320px;
         margin: auto;
+        padding: 15px;
     }
 
     img {
-        width: 260px;
+        width: 280px;
+        margin: auto;
     }
 
     .img-lado {
         float: left
+    }
+
+    a img {
+        width: 40px;
+        margin-top: 20px;
     }
 }
