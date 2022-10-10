@@ -1,4 +1,4 @@
-* {font-family: arial; font-size: 16px;}
+* {margin: 0; padding: 0; font-family: arial; font-size: 16px;}
 
 body {
     background-color: rgb(196, 160, 230);
@@ -6,7 +6,7 @@ body {
 
 main {
     background-color: #fff;
-    width: 500px;
+    width: 1024px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
